@@ -16,11 +16,13 @@
 		"tailwindcss": "^4.1.13"
 	},
 	"devDependencies": {
+		"@cloudflare/vite-plugin": "^1.13.9",
 		"@types/react": "^19.1.13",
 		"@types/react-dom": "^19.1.9",
 		"@vitejs/plugin-react": "^5.0.3",
 		"typescript": "~5.9.3",
-		"vite": "npm:rolldown-vite@7.1.14"
+		"vite": "npm:rolldown-vite@7.1.14",
+		"wrangler": "^4.41.0"
 	},
 	"overrides": {
 		"vite": "npm:rolldown-vite@7.1.14"
