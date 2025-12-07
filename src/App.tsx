@@ -16,7 +16,7 @@ export default function App() {
 	}, []);
 
 	return (
-		<div className="h-screen w-screen bg-gray-500 flex flex-col justify-center items-center text-center gap-4 text-gray-200 font-mono">
+		<div className="h-screen w-screen bg-gray-500 flex flex-col justify-center items-center text-center gap-4 text-gray-200 font-mono px-4">
 			<h1 className="text-4xl font-bold">
 				{isGamer ? "cheesypotato" : "julie saia"}
 			</h1>
